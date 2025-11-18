@@ -1,5 +1,5 @@
 # 🚗 Kelompok Pemrograman Berbasis Objek
-## **Project Tema: Simulasi Kendaraan (Roda 2 & Roda 4) dengan Fitur Kecepatan**
+## **Project Tema: Simulasi Kendaraan (Roda 2 & Roda 4)**
 
 ---
 
@@ -48,15 +48,20 @@ README.md
 ## 🧩 Tutorial Git untuk Anggota Kelompok
 Panduan ini dibuat supaya semua anggota bisa berkolaborasi memakai GitHub dengan rapi.
 
-1. Cara Clone Repository
+## 1. Cara Clone Repository
 Agar bisa mengerjakan di laptop masing-masing:
 
 Clone Repo
 ```
-git clone [https://github.com/namakelompok/nama-repository.git](https://github.com/namakelompok/nama-repository.git)
+git clone https://github.com/vestiapani/PBO-TEORI-KELOMPOK.git
 ```
 
-2. Cara Membuat Branch Baru
+## 2. Mulai Dari Main Terbaru
+```
+git checkout main
+git pull origin main
+```
+### Cara Membuat Branch Baru
 Setiap anggota membuat branch sendiri. Nama branch disarankan sesuai nama masing-masing.
 
 ```
@@ -67,41 +72,38 @@ git checkout -b nama-anggota
 ```
 git checkout -b ivan
 ```
-3. Cara Cek Semua Branch
+## 3. Cara Cek Semua Branch
 Untuk melihat kamu sedang berada di branch mana:
 
 ```
 git branch
 ```
 
-4. Cara Menambah File / Edit Project
+## 4. Cara Menambah File / Edit Project
 Setelah mengedit atau membuat file Java:
 
 Tambahkan perubahan:
 ```
 git add .
-
-Commit perubahan:
-
+```
+### Commit perubahan:
+```
 git commit -m "Menambahkan fitur kecepatan kendaraan"
 ```
 
-5. Cara Push ke Branch Masing-Masing
+## 5. Cara Push ke Branch Masing-Masing
 Saat pertama kali push:
 
 ```
 git push -u origin nama-anggota
 ```
-* Push berikutnya (cukup ketik ini):
-```
-git push
-```
-6. Cara Update Project Dengan Perubahan Terbaru (Pull)
+## <!-- CUKUP SAMPAI NOMOR 5 --!>
+## 6. Cara Update Project Dengan Perubahan Terbaru (Pull)
 Sebelum mulai mengoding hari ini, selalu lakukan ini agar tidak bentrok (conflict):
 ```
 git pull origin main
 ```
-7. Cara Merge ke Main
+## 7. Cara Merge ke Main
 (Hanya dilakukan oleh Ketua Kelompok atau yang ditunjuk)
 
 ``` text
@@ -121,7 +123,7 @@ Klik Create Pull Request.
 
 Klik Merge Pull Request.
 ```
-8. Cara Mengatasi Konflik (Jika Terjadi)
+## 8. Cara Mengatasi Konflik (Jika Terjadi)
 Jika saat git pull atau git merge muncul pesan CONFLICT:
 
 * Buka file yang conflict (biasanya warnanya merah di text editor).
