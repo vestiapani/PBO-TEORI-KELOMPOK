@@ -5,9 +5,9 @@
 
 ## 👤 **Nama Anggota**
 1. Ivan Wirahadi Permana (4524210045)
-2. [Nama Anggota 2]
-3. [Nama Anggota 3]
-4. [Nama Anggota 4]
+2. Riziq Wijaya (4524210091)
+3. Shandika Aldino Gunawan (4524210097)
+4. Fatih Miftahul Rizky (4524210107)
 
 ---
 
