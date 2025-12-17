@@ -6,14 +6,14 @@ public class Kendaraan {
     protected int pKapasitas;
     public String pWarna;
     public String pBahanBakar;
-    protected float pHarga;
+    protected double pHarga;
     protected boolean pStatus;
     protected String pPlatNomor;
     public int pTahun;
 
     // === Constructor ===
     public Kendaraan(String nama, String jenis, int kecepatan, int kapasitas,
-            String warna, String bahan, float harga, boolean status, String plat, int tahun) {
+            String warna, String bahan, double harga, boolean status, String plat, int tahun) {
         this.pNama = nama;
         this.pJenis = jenis;
         this.pKecepatan = kecepatan;
