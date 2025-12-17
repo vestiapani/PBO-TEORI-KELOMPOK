@@ -38,7 +38,8 @@ src/
 ├── KendaraanSport.java
 ├── KendaraanRoda4.java
 ├── KendaraanRoda2.java
-├── KendaraanMotor.java
+├── MotorSport.java
+├── MotorKeluarga.java
 └── App.java
 README.md
 ```
